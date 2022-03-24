@@ -19,7 +19,7 @@
   display: flex;
   align-items: center;
   padding-left: 64px;
-  /* выше установили ограничения для секции */
+
 }
 
 .logo {
@@ -55,6 +55,11 @@
   z-index: 2;
 }
 
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
 .header__mainillustration {
   position: absolute;
   right: 0;
@@ -64,7 +69,6 @@
   z-index: 1;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   position: absolute;
   top: 64px;
@@ -72,7 +76,48 @@
   height: 568px;
   width: 568px;
   background-color: #2f80ed;
+}
+.description {
+padding-top: 100px;
+}
 
+.two-columns {
+  width:80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.two-columns__brief {
+  width: 175px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight:normal ;
+  color: #2f80ed;
+  margin: 0;
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+}
+
+.two-columns__paragraph {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+
+.two-columns__paragraph:last-child {
+  margin-bottom: 0px;
+}
+
+.two-columns__span-accent {
+  line-height: 34px;
+  font-size: 24px ;
+  font-weight: bold;
 }
 
 /* и элемента с модификатором вида ключ-значение */
