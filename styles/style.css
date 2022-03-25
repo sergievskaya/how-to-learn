@@ -79,6 +79,7 @@
 }
 .description {
 padding-top: 100px;
+color: #000;
 }
 
 .two-columns {
@@ -118,6 +119,64 @@ padding-top: 100px;
   line-height: 34px;
   font-size: 24px ;
   font-weight: bold;
+}
+
+.digits {
+  padding: 100px 0;
+  color: #000;
+}
+
+.section-title {
+  border: 1px solid salmon;
+  margin: 0 auto;
+  width: 60%;
+  line-height: 1.15 ;
+  font-size: 60px;
+  font-weight:  bold;
+  text-align: center;
+}
+
+.section-subtitle {
+  border: 1px solid salmon;
+  margin: 20px auto 0;
+  width: 60%;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.table {
+  border: 1px solid salmon;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1100px;
+}
+
+.table__cell {
+  border: 1px solid salmon;
+  width: 250px;
+  margin-top: 60px;
+}
+
+.table__heding {
+  border: 1px solid salmon;
+  line-height: 1.15;
+  font-size: 24px; 
+  font-weight: bold;
+  margin: 0;
+}
+
+.table__text {
+  border: 1px solid salmon;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 20px 0 0;
 }
 
 /* и элемента с модификатором вида ключ-значение */
