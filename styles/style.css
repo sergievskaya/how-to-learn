@@ -18,8 +18,6 @@
   color: #000;
   display: flex;
   align-items: center;
-  padding-left: 64px;
-
 }
 
 .logo {
@@ -36,11 +34,12 @@
 }
 
 .header__title {
+  padding-left: 64px;
   margin:0;
   line-height: 96px;
   font-size: 102px;
   font-weight:bold;
-  width: 730px;
+  max-width: 730px;
   z-index: 2;
 }
 
@@ -60,7 +59,7 @@
   text-decoration: none;
 }
 
-.header__mainillustration {
+.header__main-illustration {
   position: absolute;
   right: 0;
   bottom: 0;
@@ -164,7 +163,7 @@ color: #000;
   margin-top: 80px;
 }
 
-.table__heding {
+.table__heading {
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
@@ -228,12 +227,14 @@ color: #000;
 }
 
 .kaufman__triangle {
-width: 877px;
-height: 877px;
-position: absolute;
-top:0px;
-right: -210px;
-z-index: -1;
+  background-image: url(../images/kaufman-triangle.svg);
+  background-size: 877px 877px;
+  width: 877px; 
+  height: 877px;
+  position: absolute;
+  top: 0px;
+  right: -210px;
+  z-index: -1;
 }
 
 .footer {
@@ -241,6 +242,8 @@ z-index: -1;
   background-color: #1f1f1f;
   color: white;
   display: flex;
+  padding: 60px 0 40px;
+  box-sizing: border-box;
 }
 
 .footer__columns {
@@ -248,7 +251,7 @@ z-index: -1;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin:60px auto 40px;
+  margin: 0 auto;
 }
 
 
@@ -260,37 +263,42 @@ z-index: -1;
 }
 
 .logo_place_footer {
-width: 183px;
-height: 35px;
+  width: 183px;
+  height: 35px;
 }
+
 .footer__author {
-line-height: 25px;
-font-size: 18px;
-font-weight: normal;
-margin: 18px 0;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 18px 0;
 }
 
 .footer__column-heading {
   line-height: 30px;
   font-size: 18px;
-  font-weight: normal;
-  margin: 0px;
+  font-weight: bold;
+  margin: 0 0 20px;
 }
+
 .footer__column-links {
-  margin: 20px 0 0;
+  margin: 0 0 16px;
+  padding: 0;
   display: flex;
   flex-direction: column;
+  list-style: none;
 }
+
 .footer__column-link {
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
   color: white;
   text-decoration: none;
-  margin-bottom: 10px;
 }
 
 .social-icon {
   width: 16px;
   height: 16px;
+  margin-right: 10px;
 }
