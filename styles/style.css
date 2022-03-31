@@ -45,6 +45,7 @@
 
 .header__subtitle {
   position: absolute;
+  margin: 0;
   bottom: 30px;
   left: 64px;
   width: 388px;
@@ -77,9 +78,9 @@
   background-color: #2f80ed;
 }
 .description {
-padding-top: 100px;
-color: #000;
-}
+  padding-top: 100px;
+  color: #000;
+  }
 
 .two-columns {
   width:80%;
@@ -297,7 +298,7 @@ color: #000;
   text-decoration: none;
 }
 
-.social-icon {
+.footer__social-icon {
   width: 16px;
   height: 16px;
   margin-right: 10px;
