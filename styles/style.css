@@ -1,84 +1,9 @@
-.page {
-  min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
-  max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
-  margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-}
 
-.header {
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
-  background-color: #f2f2f2;
-  position: relative;
-  color: #000;
-  display: flex;
-  align-items: center;
-}
 
-.logo {
-  width: 183px;
-  height: 32px;
-  
-}
 
-.logo_place_header {
-  position: absolute;
-  top: 30px;
-  left: 64px;
-  z-index: 2;
-}
 
-.header__title {
-  padding-left: 64px;
-  margin:0;
-  line-height: 96px;
-  font-size: 102px;
-  font-weight:bold;
-  max-width: 730px;
-  z-index: 2;
-}
 
-.header__subtitle {
-  position: absolute;
-  margin: 0;
-  bottom: 30px;
-  left: 64px;
-  width: 388px;
-  line-height: 25px;
-  font-size:18px;
-  font-weight:normal;
-  z-index: 2;
-}
-
-.header__link {
-  color: #2f80ed;
-  text-decoration: none;
-}
-
-.header__main-illustration {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  height: 608px;
-  width: 765px;
-  z-index: 1;
-}
-
-.header__square-pic {
-  position: absolute;
-  top: 64px;
-  right: 0;
-  height: 568px;
-  width: 568px;
-  background-color: #2f80ed;
-}
 .description {
-  padding-top: 100px;
   color: #000;
   }
 
@@ -263,10 +188,7 @@
   flex-basis: 711px;
 }
 
-.logo_place_footer {
-  width: 183px;
-  height: 35px;
-}
+
 
 .footer__author {
   line-height: 25px;
