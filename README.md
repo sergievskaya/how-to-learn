@@ -6,3 +6,7 @@ __How-to-learn- типовой одностраничный сайт.
 * _продвинутая семантика HTML_
 * _БЭМ (Nested)_
 * _Анимации и трансформации_
+
+**Ссылка на GitHub Pages:**
+
+https://sergievskaya.github.io/how-to-learn/
